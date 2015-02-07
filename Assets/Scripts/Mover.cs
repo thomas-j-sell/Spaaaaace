@@ -9,4 +9,9 @@ public class Mover : MonoBehaviour
 	{
 		rigidbody.velocity = transform.forward * speed;
 	}
+
+	void increaseSpeed ()
+	{
+		speed = speed + 1.0f;
+	}
 }
